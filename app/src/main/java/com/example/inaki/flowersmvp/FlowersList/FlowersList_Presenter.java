@@ -23,7 +23,7 @@ public class FlowersList_Presenter implements IFlowersList_contract.IPresenter_F
     @Override
     public void onBind(IFlowersList_contract.IView_FlowersList iViewFlowersList) {
 
-        this.iView_flowersList = iViewFlowersList;
+        this.iView_flowersList = iViewFlowersList; 
     }
 
     @Override
